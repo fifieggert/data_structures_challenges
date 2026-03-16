@@ -7,8 +7,11 @@
 # Acadêmicos 
 
 Ana Luisa Milchert 
+
 Andrey Garcia dos Santos 
+
 Graziela Torres
+
 Sophia Eggert Freire da Rocha
 
 # Ferramenta de IA Utilizada
