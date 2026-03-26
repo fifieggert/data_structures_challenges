@@ -20,7 +20,6 @@ function summaryRanges(nums: number[]): string[] {
     }
     
     return result;
-} // <--- A função termina aqui
+}
 
-// Agora sim, o comando para testar no terminal:
 console.log(summaryRanges([0, 1, 2, 4, 5, 7]));
