@@ -1,0 +1,12 @@
+// link do problema: https://leetcode.com/problems/rotate-array/description/
+
+def rotate(nums, k):
+    n = len(nums)
+    k = k % n 
+
+    result = [0] * n
+
+    for i in range(n):
+        result[(i + k) % n] = nums[i]
+
+    return result
