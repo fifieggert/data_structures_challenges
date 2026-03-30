@@ -88,7 +88,7 @@ Estrutura de dados principal usada: Pilha (Stack).
 
 Justificativa: A Pilha é a estrutura ideal porque a execução de funções em uma CPU segue o modelo LIFO (Last-In, First-Out). Quando uma nova função inicia (start), a função que estava no topo da pilha é "pausada". Quando uma função termina (end), ela é desempilhada. A pilha permite rastrear exatamente qual ID está ativo em cada intervalo de tempo, lidando perfeitamente com funções aninhadas ou recursivas.
 
-3. Componentes de Lista Encadeada (Linked List Components)
+2. Componentes de Lista Encadeada (Linked List Components)
    
 Link do problema: https://leetcode.com/problems/linked-list-components/description/
 
@@ -98,7 +98,7 @@ Estrutura de dados principal usada: Conjunto (Set) e Lista Encadeada (Linked Lis
 
 Justificativa: O problema exige identificar grupos de nós conectados que existam dentro de um subconjunto (nums). O Set é a estrutura mais adequada aqui pois permite verificar se um valor do nó pertence ao subconjunto em tempo constante $O(1)$. Combinado com o percurso sequencial da Lista Encadeada, conseguimos detectar o início de um novo componente sempre que um valor presente no Set é encontrado após um valor ausente (ou no início da lista).
 
-4. Intervalos de Resumo (Summary Ranges)
+3. Intervalos de Resumo (Summary Ranges)
    
 Link do problema: https://leetcode.com/problems/summary-ranges/description/
 
