@@ -76,6 +76,31 @@ Justificativa: Diferente de um Array, a Lista Encadeada permite que você insira
 
 Justificativa: Embora o código use um Array para o resultado, a "estrutura" lógica aqui são os Bits do número. Essa abordagem é adequada porque operações de bit (como XOR) permitem identificar diferenças entre números sem usar memória extra (como um Hashmap). É a forma mais performática possível (espaço constante $O(1)$) para isolar elementos que não possuem pares em uma coleção.
 
+
+# Graziela
+
+- The Skyline Problem 
+- Link do problema: https://leetcode.com/problems/the-skyline-problem/description/?envType=problem-list-v2&envId=array
+- Plataforma utilizada: LeetCode
+- Estrutura de dados principal usada: Array
+
+Justificativa: O Array é adequado porque tanto a entrada quanto a saída do problema são listas de coordenadas, representadas naturalmente como arrays de pares [x, y]. Toda a lógica da solução armazenar eventos, rastrear alturas ativas e acumular o resultado se apoia em operações simples de array como push, splice e sort, que são suficientes para o tamanho de entrada do problema.
+
+- Next Greater Node in Linked List - 
+- Link do problema: https://leetcode.com/problems/next-greater-node-in-linked-list/?envType=problem-list-v2&envId=linked-list
+- Plataforma utilizada: LeetCode
+- Estrutura de dados principal usada: Linked List
+
+Justificativa: A Lista Encadeada é a estrutura de entrada do problema os valores chegam como nós encadeados, sem acesso por índice. A solução primeiro percorre a lista para extrair os valores em um array, depois aplica uma pilha monotônica para encontrar o próximo maior elemento de cada posição de forma eficiente. A lista encadeada é, portanto, o ponto de partida obrigatório: toda a lógica começa com a travessia nó a nó que só essa estrutura impõe.
+
+- Parsing a Boolean Expression
+- Link do problema: https://leetcode.com/problems/parsing-a-boolean-expression/description/?envType=problem-list-v2&envId=stack
+- Plataforma utilizada: LeetCode
+- Estrutura de dados principal usada: Stack 
+
+Justificativa: A Pilha é a estrutura ideal para expressões aninhadas: ao encontrar ), é necessário acessar exatamente os elementos empilhados desde o último (, na ordem inversa de inserção comportamento LIFO natural de uma pilha. A solução empilha caracteres ao avançar e desempilha ao fechar cada subexpressão, avaliando o operador e substituindo pelo resultado. Sem pilha, controlar o escopo de cada nível de aninhamento exigiria uma abordagem muito mais complexa.
+
+
 # Sophia
 
 1. Tempo Exclusivo de Funções (Exclusive Time of Functions)
