@@ -1,3 +1,5 @@
+//Pilhas: https://leetcode.com/problems/parsing-a-boolean-expression/description/?envType=problem-list-v2&envId=stack
+
 function parseBoolExpr(expression: string): boolean {
   const stack: string[] = [];
 

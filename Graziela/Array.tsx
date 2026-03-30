@@ -1,3 +1,6 @@
+// Array: https://leetcode.com/problems/the-skyline-problem/description/?envType=problem-list-v2&envId=array
+
+
 function getSkyline(buildings: number[][]): number[][] {
   const events: [number, number][] = [];
 

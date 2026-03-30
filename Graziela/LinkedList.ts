@@ -1,3 +1,4 @@
+//Lista encadeada: https://leetcode.com/problems/next-greater-node-in-linked-list/?envType=problem-list-v2&envId=linked-list
 
 function nextLargerNodes(head: { val: number; next: { val: number; next: any } | null } | null): number[] {
   const values: number[] = [];
