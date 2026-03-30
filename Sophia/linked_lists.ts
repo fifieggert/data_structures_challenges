@@ -30,12 +30,3 @@ function numComponents(head: ListNode | null, nums: number[]): number {
     return count;
 }
 
-const node3 = new ListNode(3);
-const node2 = new ListNode(2, node3);
-const node1 = new ListNode(1, node2);
-const head = new ListNode(0, node1);
-
-const nums = [0, 1, 3];
-
-const result = numComponents(head, nums);
-console.log(`Número de componentes conectados: ${result}`);

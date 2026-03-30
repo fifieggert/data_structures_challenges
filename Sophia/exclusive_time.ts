@@ -31,9 +31,3 @@ function exclusiveTime(n: number, logs: string[]): number[] {
 }
 
 
-const n = 2;
-const logs = ["0:start:0", "1:start:2", "1:end:5", "0:end:6"];
-
-const result = exclusiveTime(n, logs);
-console.log("Resultado esperado: [3, 4]");
-console.log("Resultado obtido:  ", result);
